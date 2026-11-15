@@ -1,0 +1,10 @@
+{
+    "name": "st-split-history",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "description": "SillyTavern extension that moves the latest character reply and everything after it to its own Prompt Manager entry.",
+    "scripts": {
+        "test": "node --test test/*.test.js"
+    }
+}

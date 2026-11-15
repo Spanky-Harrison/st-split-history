@@ -1,0 +1,13 @@
+{
+    "display_name": "Split History",
+    "loading_order": 100,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "Spanky-Harrison",
+    "version": "1.0.0",
+    "homePage": "https://github.com/Spanky-Harrison/st-split-history",
+    "auto_update": true,
+    "minimum_client_version": "1.13.0"
+}

@@ -1,0 +1,10 @@
+.split-history-settings .split-history-note {
+    margin: 0.5em 0;
+    opacity: 0.85;
+    font-size: 0.9em;
+}
+
+.split-history-settings textarea {
+    width: 100%;
+    box-sizing: border-box;
+}

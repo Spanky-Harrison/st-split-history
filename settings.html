@@ -1,0 +1,30 @@
+<div id="split_history_settings" class="split-history-settings">
+    <div class="inline-drawer">
+        <div class="inline-drawer-toggle inline-drawer-header">
+            <b>Split History</b>
+            <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+        </div>
+        <div class="inline-drawer-content">
+            <label class="flex-container alignItemsCenter" for="split_history_enabled">
+                <input id="split_history_enabled" type="checkbox" />
+                <span>Split chat history</span>
+            </label>
+            <p class="split-history-note">
+                Chat Completion only. Older history stays in <b>Chat History</b>.
+                The most recent character reply, plus every message after it, moves to a prompt named <b>Recent History</b>.
+                Drag that entry in the Prompt Manager to put the current scene somewhere else.
+            </p>
+            <p class="split-history-note">
+                Example: character, you, character, you, character, you.
+                Chat History keeps the first character, you, character, you.
+                Recent History gets the last character reply and the you after it.
+                If several of your messages follow that reply, all of them move with it. If the reply is last, only that reply moves.
+            </p>
+            <label for="split_history_wrapper">Header in front of the recent messages</label>
+            <textarea id="split_history_wrapper" class="text_pole" rows="3" placeholder="Leave empty to add no header"></textarea>
+            <p class="split-history-note">
+                Text Completion is unchanged. The prompt body of Recent History is managed by this extension; place it by dragging, not by editing that text.
+            </p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+SillyTavern chat-completion prompt, simulated from the 1.19 assembly order.
+History: char, user, char, user, char, user.
+Part A is everything before the last character reply. Part B is that reply plus whatever follows it.
+
+OFF (Recent History entry disabled, sentinel not in the prompt)
+0. system:Write the next reply.
+1. system:[Start a new Chat]
+2. assistant:The market is closing.
+3. user:We should go.
+4. assistant:One more stall.
+5. user:Which one?
+6. assistant:The one with the red awning.
+7. user:I am already walking.
+8. system:Post-history instructions.
+
+ON (recent history moved onto its prompt entry)
+0. system:Write the next reply.
+1. system:[Start a new Chat]
+2. assistant:The market is closing.
+3. user:We should go.
+4. assistant:One more stall.
+5. user:Which one?
+6. system:Post-history instructions.
+7. assistant:The one with the red awning.
+8. user:I am already walking.
+
+Part B messages:
+- assistant:The one with the red awning.
+- user:I am already walking.
